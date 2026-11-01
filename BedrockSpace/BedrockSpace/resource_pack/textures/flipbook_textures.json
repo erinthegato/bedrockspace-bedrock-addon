@@ -1,0 +1,13 @@
+[
+  {
+    "flipbook_texture": "textures/bedrockspace_rocket_launch",
+    "atlas_tile": "bedrockspace:rocket_launch",
+    "ticks_per_frame": 3,
+    "frames": [
+      0,
+      1,
+      2,
+      1
+    ]
+  }
+]

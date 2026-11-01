@@ -1,0 +1,74 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockspace:rocket",
+      "menu_category": {
+        "category": "construction",
+        "group": "bedrockspace:space"
+      },
+      "states": {
+        "bedrockspace:fuel": [false, true],
+        "bedrockspace:loaded": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockspace:rocket_fuel",
+          "render_method": "opaque",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#5a4a3a",
+      "minecraft:display_name": {
+        "value": "Rocket"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('bedrockspace:fuel') == 'true'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_fuelled",
+              "render_method": "opaque",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            }
+          },
+          "minecraft:display_name": {
+            "value": "Rocket (fuelled)"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('bedrockspace:loaded') == 'true'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_launch",
+              "render_method": "opaque",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            }
+          },
+          "minecraft:light_emission": {
+            "light": 12
+          },
+          "minecraft:display_name": {
+            "value": "Rocket (launching)"
+          }
+        }
+      }
+    ]
+  }
+}

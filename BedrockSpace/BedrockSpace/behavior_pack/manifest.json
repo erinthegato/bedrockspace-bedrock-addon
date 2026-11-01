@@ -1,0 +1,79 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BedrockSpace Core (Behavior)",
+    "description": "Advanced Rocketry style space addon for Bedrock: rockets, space station, space dimension, low gravity, launch camera, star skybox.",
+    "uuid": "bedrockspace:behavior",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      70
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "bedrockspace:data",
+      "version": [
+        1,
+        0,
+        1
+      ],
+      "language_file": "data/minecoins.json"
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "bedrockspace:script",
+      "version": [
+        1,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    },
+    {
+      "type": "entities",
+      "uuid": "bedrockspace:entities",
+      "version": [
+        1,
+        0,
+        1
+      ],
+      "language_file": "entities/minecoins.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "bedrockspace:resource",
+      "version": [
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "BedrockSpace"
+    ],
+    "generated_with": {
+      "bedrockspace": [
+        "1.0.1"
+      ]
+    }
+  }
+}

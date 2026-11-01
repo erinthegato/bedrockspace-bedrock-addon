@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockspace:space_station_anchor",
+      "menu_category": {
+        "category": "construction",
+        "group": "bedrockspace:space"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockspace:space_station",
+          "render_method": "opaque",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8
+      },
+      "minecraft:map_color": "#3a4a6a",
+      "minecraft:light_emission": {
+        "light": 6
+      },
+      "minecraft:display_name": {
+        "value": "Space Station Anchor"
+      }
+    }
+  }
+}

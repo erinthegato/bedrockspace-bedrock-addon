@@ -1,0 +1,20 @@
+{
+  "resource_pack_name": "bedrockspace",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "bedrockspace:rocket_fuel": {
+      "textures": "textures/bedrockspace_rocket_fuel"
+    },
+    "bedrockspace:rocket_fuelled": {
+      "textures": "textures/bedrockspace_rocket_fuelled"
+    },
+    "bedrockspace:rocket_launch": {
+      "textures": "textures/bedrockspace_rocket_launch"
+    },
+    "bedrockspace:space_station": {
+      "textures": "textures/bedrockspace_station"
+    }
+  }
+}

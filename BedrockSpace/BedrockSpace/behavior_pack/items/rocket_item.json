@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrockspace:rocket",
+      "menu_category": {
+        "category": "equipment",
+        "group": "bedrockspace:space"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": { "default": "bedrockspace:rocket_item" }
+      },
+      "minecraft:display_name": {
+        "value": "Rocket"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_animation": ".swing",
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_cooldown": 1.0
+    }
+  }
+}

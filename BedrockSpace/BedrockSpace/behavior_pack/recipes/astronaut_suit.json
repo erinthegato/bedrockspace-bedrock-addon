@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "bedrockspace:astronaut_suit" },
+    "tags": ["crafting_table"],
+    "unlock": { "context": "AlwaysUnlocked" },
+    "pattern": ["IFP", "IFI", "IFP"],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "F": { "item": "minecraft:glass" },
+      "P": { "item": "minecraft:iron_block" }
+    },
+    "result": { "item": "bedrockspace:astronaut_suit", "count": 1 }
+  }
+}

@@ -1,0 +1,8 @@
+tile.bedrockspace:space_station_anchor.name=Space Station Anchor
+tile.bedrockspace:rocket.name=Rocket
+tile.bedrockspace:rocket.fuelled.name=Rocket (fuelled)
+tile.bedrockspace:rocket.loaded.name=Rocket (launching)
+item.bedrockspace:rocket.name=Rocket
+item.bedrockspace:astronaut_suit.name=Astronaut Suit
+bedrockspace:space=Space
+bedrockspace:itemGroup.name.space=Space

@@ -1,0 +1,13 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BedrockSpace Core (Resources)",
+    "description": "Space skybox and rocket/station textures.",
+    "uuid": "bedrockspace:resource",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 70]
+  },
+  "modules": [{ "type": "resources", "uuid": "bedrockspace:resources", "version": [1, 0, 1] }],
+  "dependencies": [{ "uuid": "bedrockspace:behavior", "version": [1, 0, 1] }],
+  "metadata": { "authors": ["BedrockSpace"] }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block_palette": {
+    "blocks": [
+      {
+        "name": "bedrockspace:rocket",
+        "states": {
+          "bedrockspace:fuel": [false, true],
+          "bedrockspace:loaded": [false, true]
+        },
+        "components": {
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_fuel",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "name": "bedrockspace:space_station_anchor",
+        "components": {
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:space_station",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

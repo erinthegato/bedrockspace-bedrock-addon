@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrockspace:astronaut_suit",
+      "menu_category": {
+        "category": "equipment",
+        "group": "bedrockspace:space"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": { "default": "bedrockspace:astronaut_suit" }
+      },
+      "minecraft:display_name": {
+        "value": "Astronaut Suit"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": true,
+      "minecraft:armor_categories": ["chest"],
+      "minecraft:defense": 4
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "bedrockspace",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "bedrockspace:rocket_item": {
+      "textures": "textures/bedrockspace_rocket_item"
+    },
+    "bedrockspace:astronaut_suit": {
+      "textures": "textures/bedrockspace_astronaut_suit"
+    }
+  }
+}

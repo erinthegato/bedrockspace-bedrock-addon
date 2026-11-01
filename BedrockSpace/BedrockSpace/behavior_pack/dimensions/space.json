@@ -1,0 +1,51 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:dimension": {
+    "description": {
+      "identifier": "bedrockspace:space",
+      "properties": {
+        "bedrockspace:dimension_type": "space"
+      }
+    },
+    "components": {
+      "minecraft:environment": {
+        "skybox": {
+          "textures": [
+            "textures/environment/space_cubemap/cubemap_0.png",
+            "textures/environment/space_cubemap/cubemap_1.png",
+            "textures/environment/space_cubemap/cubemap_2.png",
+            "textures/environment/space_cubemap/cubemap_3.png",
+            "textures/environment/space_cubemap/cubemap_4.png",
+            "textures/environment/space_cubemap/cubemap_5.png"
+          ]
+        },
+        "fog": {
+          "color": [0, 0, 0],
+          "density": 0.02
+        },
+        "ambient_light": {
+          "color": [0.05, 0.05, 0.08],
+          "intensity": 0.15
+        }
+      },
+      "minecraft:game_rules": {
+        "doDaylightCycle": false,
+        "doWeatherCycle": false
+      },
+      "minecraft:spawn_behavior": {
+        "monster": { "spawn_cost": 1, "max_light_spawn": 0 },
+        "creature": { "spawn_cost": 1 }
+      },
+      "minecraft:difficulty": "hard",
+      "minecraft:is_deep_slime": false,
+      "minecraft:is_force_game_rule_arbitrary": false,
+      "minecraft:light_draft": false,
+      "minecraft:minimum_other_player_count_for_forced_spawn": 0,
+      "minecraft:scale_by_player_count": false,
+      "minecraft:spawn_cost": 0,
+      "minecraft:spawning_enable_monster": false,
+      "minecraft:spawning_enable_water_creature": false,
+      "minecraft:spawning_enable_walker": false
+    }
+  }
+}
