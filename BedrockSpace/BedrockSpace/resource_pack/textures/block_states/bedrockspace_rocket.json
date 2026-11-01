@@ -1,1 +1,49 @@
-FUELLED_AND_LAUNCH_PERMUTATIONS
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockspace:rocket"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockspace:rocket_fuel",
+          "render_method": "opaque",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('bedrockspace:fuel') == 'true'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_fuelled",
+              "render_method": "opaque",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('bedrockspace:loaded') == 'true'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_launch",
+              "render_method": "opaque",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            }
+          },
+          "minecraft:light_emission": {
+            "light": 12
+          }
+        }
+      }
+    ]
+  }
+}

@@ -29,6 +29,42 @@
             }
           }
         }
+      },
+      {
+        "name": "bedrockspace:rocket_assembly",
+        "components": {
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_fuel",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "name": "bedrockspace:rocket_fuel_chamber",
+        "components": {
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_fuelled",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "name": "bedrockspace:rocket_interface",
+        "components": {
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bedrockspace:rocket_item",
+              "render_method": "opaque"
+            }
+          }
+        }
       }
     ]
   }

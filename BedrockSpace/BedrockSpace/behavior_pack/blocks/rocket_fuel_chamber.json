@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockspace:rocket_fuel_chamber",
+      "menu_category": {
+        "category": "construction",
+        "group": "bedrockspace:space"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockspace:rocket_fuelled",
+          "render_method": "opaque",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#6a5a4a",
+      "minecraft:display_name": {
+        "value": "Rocket Fuel Chamber"
+      }
+    }
+  }
+}

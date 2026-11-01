@@ -2,12 +2,12 @@
   "format_version": 2,
   "header": {
     "name": "BedrockSpace Core (Behavior)",
-    "description": "Advanced Rocketry style space addon for Bedrock: rockets, space station, space dimension, low gravity, launch camera, star skybox.",
-    "uuid": "bedrockspace:behavior",
+    "description": "Advanced Rocketry style space addon for Bedrock: space dimension, rockets, multiblock rocket assembly, satellites, weapons, scrap, research.",
+    "uuid": "3f0b6e9c-9c1d-4f2a-8a5e-7c0b1d3e4f5a",
     "version": [
       1,
       0,
-      1
+      2
     ],
     "min_engine_version": [
       1,
@@ -18,34 +18,23 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "bedrockspace:data",
+      "uuid": "7a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
       "version": [
         1,
         0,
-        1
-      ],
-      "language_file": "data/minecoins.json"
+        2
+      ]
     },
     {
       "type": "script",
       "language": "javascript",
-      "uuid": "bedrockspace:script",
+      "uuid": "b1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
       "version": [
         1,
         0,
-        1
+        2
       ],
       "entry": "scripts/main.js"
-    },
-    {
-      "type": "entities",
-      "uuid": "bedrockspace:entities",
-      "version": [
-        1,
-        0,
-        1
-      ],
-      "language_file": "entities/minecoins.json"
     }
   ],
   "dependencies": [
@@ -58,22 +47,17 @@
       "version": "2.0.0"
     },
     {
-      "uuid": "bedrockspace:resource",
+      "uuid": "d3e4f5a6-b7c8-9d0e-1f2a-3b4c5d6e7f8a",
       "version": [
         1,
         0,
-        1
+        2
       ]
     }
   ],
   "metadata": {
     "authors": [
       "BedrockSpace"
-    ],
-    "generated_with": {
-      "bedrockspace": [
-        "1.0.1"
-      ]
-    }
+    ]
   }
 }

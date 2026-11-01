@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrockspace:scrap_metal",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Space Scrap Metal"
+      },
+      "minecraft:icon": "bedrockspace_scrap_metal",
+      "minecraft:use_modifiers": {
+        "use_duration": 0.5
+      }
+    }
+  }
+}

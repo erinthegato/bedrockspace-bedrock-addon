@@ -7,6 +7,9 @@
     },
     "bedrockspace:astronaut_suit": {
       "textures": "textures/bedrockspace_astronaut_suit"
+    },
+    "bedrockspace:scrap_metal": {
+      "textures": "textures/bedrockspace_scrap_metal"
     }
   }
 }

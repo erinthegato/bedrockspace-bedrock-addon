@@ -1,0 +1,8 @@
+# Packaged addons (distributed as release assets, not source)
+*.mcaddon
+*.mcpack
+*.mcworld
+
+# Local build scratch
+BedrockSpace/_rebuild/
+tmp_mcaddon_build/
